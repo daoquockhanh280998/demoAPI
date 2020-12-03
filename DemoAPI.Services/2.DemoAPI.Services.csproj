@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.11.3" />
+    <PackageReference Include="EPPlus" Version="5.4.2" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.8.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\5.demoAPI.ViewModel\5.demoAPI.ViewModel.csproj" />
+    <ProjectReference Include="..\DemoAPI.Data\4.DemoAPI.Data.csproj" />
+    <ProjectReference Include="..\DemoAPI.Repository\3.DemoAPI.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

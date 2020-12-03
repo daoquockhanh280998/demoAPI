@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="EPPlus" Version="5.4.2" />
+		<PackageReference Include="ExcelFile.net" Version="1.2.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.0.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\5.demoAPI.ViewModel\5.demoAPI.ViewModel.csproj" />
+		<ProjectReference Include="..\6.demoAPI.Common\6.demoAPI.Common.csproj" />
+		<ProjectReference Include="..\DemoAPI.Data\4.DemoAPI.Data.csproj" />
+		<ProjectReference Include="..\DemoAPI.Services\2.DemoAPI.Services.csproj" />
+	</ItemGroup>
+
+</Project>
